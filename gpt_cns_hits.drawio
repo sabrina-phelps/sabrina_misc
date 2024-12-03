@@ -1,9 +1,51 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.1">
   <diagram name="Page-1" id="eAX5Wr9f9w65LLw0vjtU">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="rYC8dQQM3VgM-CVt3eXh-1" value="Lawyer Profiles" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="80" y="60" width="140" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="rYC8dQQM3VgM-CVt3eXh-2" value="CNS Hits" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="70" y="300" width="140" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="rYC8dQQM3VgM-CVt3eXh-3" value="GPT Compare Single Lawyer Profile Against CNS Hits for Single Lawyer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="225" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="rYC8dQQM3VgM-CVt3eXh-4" value="Hits ranked to be reviewed by lawyer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="220" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="rYC8dQQM3VgM-CVt3eXh-5" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="165" as="sourcePoint" />
+            <mxPoint x="370" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rYC8dQQM3VgM-CVt3eXh-6" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="380" as="sourcePoint" />
+            <mxPoint x="380" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rYC8dQQM3VgM-CVt3eXh-7" value="Prompt notes:&lt;div&gt;- can we provide info on if the lawyer has worked with the client in the past without using Elite?&lt;/div&gt;&lt;div&gt;- look for frequent hits and if possible when we billed them last&lt;/div&gt;&lt;div&gt;- usually ignore insurance companies&lt;/div&gt;&lt;div&gt;- exclude hits with &#39;removal&#39;&lt;/div&gt;&lt;div&gt;- look for matching locations/states and practice areas within profiles&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;spacing=2;spacingTop=2;spacingLeft=43;spacingRight=43;" vertex="1" parent="1">
+          <mxGeometry x="270" y="370" width="500" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="rYC8dQQM3VgM-CVt3eXh-9" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="580" y="270" as="sourcePoint" />
+            <mxPoint x="680" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rYC8dQQM3VgM-CVt3eXh-10" value="Potential CNS database for previous cases worked if we can&#39;t use Elite??" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="410" width="140" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="rYC8dQQM3VgM-CVt3eXh-11" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="170" as="sourcePoint" />
+            <mxPoint x="480" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
